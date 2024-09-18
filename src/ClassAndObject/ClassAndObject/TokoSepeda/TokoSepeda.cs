@@ -16,7 +16,7 @@ namespace ClassAndObject.TokoSepeda
         }
         public void TampilkanInformasi()
         {
-            Console.WriteLine($"Merek: {Merk}, Tipe: {Tipe}, Berat: {Berat.ToString("F1", CultureInfo.InvariantCulture)} kg");
+            Console.WriteLine($"Merek: {Merk}, Tipe: {Tipe}, Berat: {Berat.ToString(CultureInfo.InvariantCulture)} kg");
         }
     }
 }
